@@ -156,4 +156,7 @@ int main()
     b->prev = a;
     b->next = c;
     c->prev = b;
+
+    print_normal(head);
+    print_reverse(tail);
 */

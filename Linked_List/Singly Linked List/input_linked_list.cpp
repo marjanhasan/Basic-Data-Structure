@@ -129,3 +129,22 @@ int main()
     print_linekd_list(head);
     return 0;
 }
+/*
+    Node* head = new Node(10);
+    Node* a = new Node(20);
+    Node* b = new Node(30);
+    Node* c = new Node(40);
+    Node* d = new Node(50);
+
+    head->next = a;
+    a->next = b;
+    b->next = c;
+    c->next = d;
+
+    Node* tmp = head;
+    while(tmp != NULL)
+    {
+        cout<<tmp->val<<endl;
+        tmp = tmp->next;
+    }
+*/
